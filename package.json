@@ -1,0 +1,29 @@
+{
+    "name": "learn-php",
+    "version": "1.0.0",
+    "description": "A project to learn PHP",
+    "main": "index.php",
+    "dependencies": {},
+    "devDependencies": {
+        "cz-conventional-changelog": "^3.1.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "commitmsg": "validate-commit-msg"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/willwan92/learn-php.git"
+    },
+    "author": "wanchong",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/willwan92/learn-php/issues"
+    },
+    "homepage": "https://github.com/willwan92/learn-php#readme",
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}
